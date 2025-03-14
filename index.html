@@ -39,6 +39,10 @@
     //Função JavaScritp para mudar a cor do fundo da página
     function mudarCor(){
        //Gerar uma cor aleatória
+       var corAleatória= '#' + Math.floor(Match.random()*16777215).toString(16);
+       // Aplica a nova cor ao fundo da página
+       documemt.body.style.backgroundColor=corAleatória;
+
        
 
     }
